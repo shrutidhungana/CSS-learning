@@ -1,0 +1,60 @@
+/* Type Selector */
+li{ 
+    color: red;
+}
+
+/* Id Selector */
+#list2{
+    color:blue;
+}
+
+/* Class Selector */
+.list5{
+    color:blueviolet;
+}
+
+/* Pseudo Class */
+a:hover{
+    color:orange;
+}
+
+/* Pseudo Element */
+p::first-line{
+    color: pink;
+}
+
+/* Attribute Selector */
+a[href = "https://www.google.com"]{
+     color: green;
+}
+
+/* Universal Selector */
+*{
+    border: 1px solid black
+}
+
+/* Adjacent Selector */
+div a{
+       background-color: lightpink;
+}
+
+/* Child Combinatory Selector */
+div>h1{
+    color: lime;
+}
+
+/* Just sibling Selector */
+h1+p{
+    color:orchid;
+}
+
+/* Normal Sibling */
+div~li{
+    color:palegreen;
+}
+
+/* Add selector */
+
+#list2, p{
+    color: darkblue;
+}

@@ -1,0 +1,44 @@
+/* Pseudo Class */
+
+li:first-child{
+    color: indianred
+} /*For 1st child*/
+
+li:last-child{
+    color: darkblue;
+} /*For last child*/
+
+li:nth-child(3){
+    color:indigo;
+} /* For some of the child */
+
+li:nth-child(even){
+    color: green;
+} /* You can also give odd and even child. */
+
+/* Likewise you can also give some pattern to the child */
+
+input:focus{
+    border: 3px solid red
+}
+/* This is for input to be focused when you click it. */
+
+/* Pseudo element */
+
+p::first-letter{
+    font-size: 40px;
+    color: red;
+}/* for first letter */
+
+p::first-line{
+    font-size: 25px;
+    color:slateblue;
+}/* For whole of the 1st line */
+
+h1::before{
+    content: url(./assets/images.jpeg)
+} /* The image appears h1 */
+
+input::placeholder{
+    font-size: 16px;
+}

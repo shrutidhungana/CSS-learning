@@ -1,0 +1,76 @@
+.flex-container{
+     background-color: #9f00ff;
+     display: flex;
+     /* flex-direction: row; 
+      flex-direction: row-reverse; 
+      flex-direction:column; 
+      /* flex-direction:column-reverse; Giving flex-directions to set the direction where will they be fit*/ 
+     /* flex-wrap: nowrap 
+     flex-wrap: wrap; 
+      flex-wrap:wrap-reverse; wrap property helps to adjust the child div with parent div.*/
+      flex-flow: row nowrap; /*Combination of direction and wrap*/
+      /*justify-content: center; puts content in center
+      justify-content: flex-start; default property where starts in the left
+      justify-content: flex-end; moves to end
+      justify-content: space-between; gives equal spaces in between
+      justify-content: space-around; gives spaces in surrounding location as well*/
+      justify-content: space-evenly; /*Gives equal spaces to every div */
+      height: 70vh;
+      /*align-items:center; Takes the height required and displays in the center;
+      align-items: flex-start; takes the height required and displays in the start;
+      align-items: flex-end; takes the height required and displays in the end */
+      align-items: stretch; /* it is the default value which will takes enough space as parent;*/
+      flex-wrap: wrap;
+      /*align-content : stretch; default, takes same height as parent;
+      align-content: space-around; same as justify-content but vertical;
+      align-content: space-between; takes height in between;
+      align-content: flex-start; starts in start*/
+      align-content: space-evenly; /*spaces evenly in vertical*/
+
+}
+
+.flex-child{
+    background-color: wheat;
+      margin: 20px;
+      padding: 20px;
+      width: 100px;
+      text-align: center;
+}
+
+#One{
+       order: 1;/* Gives the order to display*/
+       /* flex-grow:1;Covers the extra spaces and you can say in which ratio to cover */
+       /* flex-shrink: 3; Gives the decreasing property to see the adjusting */
+       /* align-self: center; helps to float differntly*/
+}    
+
+#Two{
+      order: 2;
+      /* flex-grow: 1; */
+}
+
+#Three{
+        Order: 3;
+        /* flex-grow: 2; */
+        flex-basis: 3;
+}
+
+#Four{
+       Order: 4;
+}
+
+#Five{
+       Order: 5;
+}
+
+#Six{
+      Order: 6;
+}
+
+#Seven{
+      Order: 7;
+}
+
+#Eight{
+      Order: 8; 
+}

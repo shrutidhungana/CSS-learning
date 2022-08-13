@@ -1,0 +1,41 @@
+#overflow{
+    background-color: whitesmoke;
+    border: 1px solid grey;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 15px;
+    /* By default overflow is visible */
+    overflow: hidden;
+    /* The content is only visible till the height of container */
+}
+
+#overflow1{
+    background-color: whitesmoke;
+    border: 1px solid red;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 15px;
+    overflow:scroll;
+    /* The content can be scrolled both vertically and horizontally */
+}
+
+#overflow2{
+    background-color: whitesmoke;
+    border: 1px solid pink;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 15px;
+    overflow-x: hidden;
+    /* The x-axis overflow will be hidden */
+    overflow-y:scroll; 
+    /* Only the y-axis overflow will be visible. */
+}
+
+#overflow3{
+    background-color: whitesmoke;
+    border: 1px solid pink;
+    width: 500px;
+    height: 300px;
+    overflow:auto;
+    /* Decides whether overflow is required or not and also auto adjusts it */
+}

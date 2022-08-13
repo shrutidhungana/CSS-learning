@@ -1,0 +1,80 @@
+body{
+    height: 1000px;
+}
+
+
+#parent{
+  border: 1px solid red;
+  width: 50%;
+  padding: 30px;
+  margin: 100px;
+}
+#one{
+    width: 100px; 
+    height : 100px;
+    background-color: green;
+    display: inline-block;
+    position: fixed;
+    /* remains fixed no matter whatever you change, so we changed height here others are scrolling but this is fixed. */
+    bottom: 10px;
+    right: 10px;
+}
+#two{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+    position:relative;
+    /* Relative takes the position from its own place. It does not com others to its original place.*/
+    top: 50px;
+    left: 50px;
+    /* First it went 50 px from top then 50px from bottom. */
+}
+#three{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    display: inline-block;
+    position: absolute;
+    /* starts calculations from its positioned parent i.e relative or absolute or fixed if not found position in parent takes another positions which has the one and if not found so takes body. Absolute also leaves its original position. */
+    top: 0px;
+    left: 0px;
+
+    /* It is good practice if you define the top, bottom and so on property for absolute */
+}
+
+/* Top, Bottom, Left and right can only be used in position property of relative, absolute and fixed. Other properties does not take the property of top, left, right and bottom. */
+
+#parent2{
+    border: 1px solid orange;
+    width: 50%;
+    padding: 30px;
+    margin: 100px;
+    position: relative;
+}
+
+#four{
+    width: 100px; 
+    height : 100px;
+    background-color: violet;
+    display: inline-block;
+}
+
+#five{
+    width: 100px; 
+    height : 100px;
+    background-color: purple;
+    display: inline-block;
+    position:absolute;
+    /* Since the parent position is relative and hence it takes the positioned parent to display is position. */
+    top: 0;
+    left: 0;
+
+}
+
+#six{
+    width: 100px; 
+    height : 100px;
+    background-color: indigo;
+    display: inline-block;
+}

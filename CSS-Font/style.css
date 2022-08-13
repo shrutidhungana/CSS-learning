@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Allura;
+    src: url("./Fonts/Allura-Regular.ttf");
+}
+/* Given from the downloaded font */
+
+@font-face {
+    font-family: "Luckiest Guy";
+    src: url("./Fonts/LuckiestGuy.ttf");
+}
+
+/* If you give names of font in more than 1 word use quotation. */
+
+h1{
+   font-weight: bold;
+   /* the thickness of font*/
+   font-style: italic;
+   /* It makes italic */
+   font-family: 'Poppins', sans-serif;
+   /* Gives the font family */
+}
+
+p{
+    font-size: 20px;
+    /* Given the font size how the font will look. */
+    font-weight: 400;
+    /* 100-900*/
+    /* font-variant:small-caps */
+    /* The first is bigger and others are smaller but in Capital */
+    font-family: 'Raleway', sans-serif;
+    font-style: oblique;
+}
+
+h2{
+    font-family: Allura ;
+}
+/* Our downloaded form */
+h3{
+    font-family: Allura,'Poppins', sans-serif;
+}
+/* If Allura doesnot work in the browser then it takes poppins. or you can check by commenting the font-face.. This is fallback font */
+
+h4{
+    font-family:"Luckiest Guy" ;
+}
+/* If you give two word for a font give in quote otherwise browser doesnot take it. */

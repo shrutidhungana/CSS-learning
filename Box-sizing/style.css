@@ -1,0 +1,28 @@
+
+
+
+
+
+h1{
+    color: white;
+}
+
+
+
+#div1{
+    background-image: linear-gradient(60deg,#ffa500,#c0c0c0);
+    width: 600px;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+#div2{
+    background-image: linear-gradient(60deg,#a9a9a9,#ff6347);
+    width: 600px;
+    height: 200px;
+    padding: 50px;
+    border: 10px solid black;
+    /* Box Sizing Starts from here */
+    /* box-sizing: content-box, By default it is content box which means the height assigned is taken by content so it takes padding and border */
+     box-sizing: border-box;  /*The height and width is taken with border included and adjustment on the height and width of content. */
+}

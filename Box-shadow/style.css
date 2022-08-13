@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: indianred;
+}
+
+h1{
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+}
+
+#div1{
+    background-color: purple;
+    border: 3px dashed black;
+    width: 500px;
+    height: 300px;
+    margin: 100px;
+    padding: 25px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 15px 3px gray , -10px 10px 15px 3px black ; /*the pixels of x-axis y-axis radius and color we can also give the spread property which is the 4th one .*/
+    /* inset means the shadow is inside */
+    /* We can also give multiple shadow separated by comma. and '-' indicates the negative axis. */
+}
+

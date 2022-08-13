@@ -1,0 +1,22 @@
+a{
+    text-decoration: none; 
+}   
+/* Direct link given */
+a:link{
+    color: indigo
+
+}
+/* Link at  first when you do nothing */
+a:visited{
+      color:green;
+}
+/* Link after visited */
+a:hover{
+      color:black;
+}
+/* Link when you hover your mouse over it */
+a:active{
+    color: yellow;
+
+}
+/* Link when you click it */

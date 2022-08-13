@@ -1,0 +1,18 @@
+ul{
+     /* list-style-type: none; none */
+     /* list-style-type: disc; disc */
+     /* list-style-type: circle; circle */
+     list-style-type: square;
+      list-style-position: inside; /*TO give the position by default it is outside*/
+}
+
+ol{
+      list-style-type:lower-alpha; 
+      /* like wise there are upper-alpha, lower-roman, upper-roman, decimal etc */
+      
+}
+/* You can also use image using list-style-image */
+
+li{
+    border: 2px solid black;
+}

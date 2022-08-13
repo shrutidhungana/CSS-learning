@@ -1,0 +1,23 @@
+#img{
+    border: 1px solid red;
+    width: 500px;
+    height: 400px;
+    object-fit: contain;
+    /*Same like background-image has contain,cover,fill property*/
+    object-position: top center
+}
+
+#img1{
+    border: 1px solid blue;
+    object-fit:fill;
+    /* The image is filled but aspect ratio is cut */
+}
+
+#img2{
+    border: 1px solid green;
+    width: 500px;
+    height: 400px;
+    object-fit:cover;
+    /* The image covers but there is difference from original image */
+   
+}

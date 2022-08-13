@@ -1,0 +1,12 @@
+div{
+    border: 3px solid #4682b4;
+    /* cursor: all-scroll */
+    /* cursor: cell; */
+    /* cursor:col-resize; */
+    /* cursor:crosshair */
+    /* cursor:help */
+    /* cursor:not-allowed */
+    /* cursor:progress */
+    cursor: pointer;
+    /* There are different cursor and you can learn about it in documentation, by default is auto. */
+}
