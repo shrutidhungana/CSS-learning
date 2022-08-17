@@ -1,3 +1,9 @@
+html{
+    font-size: 18px;
+}
+
+
+
 #parent{
     border: 1px solid red;
     /* width: 10cm; */
@@ -6,15 +12,40 @@
     /* width: 5in, this is also same */
     /* cm,mm and in are fixed so they are used very less */
     margin-bottom: 10px;
-    width: 500px;
+    width: 800px;
     /* 1in = 72px */
 }
-#child{}
+#child{
+         border: 1px solid blue;
+         width: 50%
+         /* It takes half of the width given to parent */
+}
 
 #parent1{
     border: 1px solid black;
+    margin-bottom: 10px;
     width: 500pt;
     /* 1in = 96pt*/
+    font-size: 2rem;
+   
 }
 
-#child1{}
+#child1{
+    border: 1px solid grey;
+    height: 50vh;
+    width: 50vw;
+    /* Takes width and height according to browser */
+}
+
+#parent2{
+    border: 1px solid black;
+    width: 50pc;
+    /* 1pc = 12pt */
+    font-size: 30px;
+}
+
+#child2{
+    border: 1px solid yellow;
+    font-size: 2em;
+    /* It multiplies according to parent */
+}
