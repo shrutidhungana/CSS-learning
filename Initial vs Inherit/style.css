@@ -3,8 +3,16 @@
 color: green;
 }
 
-#blue{}
+#blue{
+    color: red;
+}
 
-#initial{}
+#initial{
+    color: initial;
+    /* Takes the color of default value */
+}
 
-#inherit{}
+#inherit{
+    color: inherit;
+    /* Takes the color of parent */
+}
