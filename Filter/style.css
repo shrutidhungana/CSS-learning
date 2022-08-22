@@ -1,0 +1,18 @@
+img{
+    height: 500px;
+    margin-top: 25px;
+    margin-left: 150px;
+    /* filter:blur(10px) */
+    /* Blurs the image by 10px */
+    /* filter:brightness(50%) */
+    /* Helps in brightness */
+    /* filter: contrast(70%), gives the contrast the image */
+    /* filter:drop-shadow(8px 8px 5px gray) */
+    /* filter:grayscale(100%) */
+    /* For black and white */
+    /* filter:hue-rotate(90deg), gives color changes */
+    /* filter:invert(20%) */
+    /* filter: opacity(30%) */
+    filter:sepia(20%), blur(5px)
+    /* You can apply more than one filters at once */
+}
