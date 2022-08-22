@@ -1,0 +1,21 @@
+
+div{
+    column-count: 3;
+    /* Divides the column */
+    column-gap: 50px;
+    /* Gap between the columns */
+    /*column-rule-style: solid;
+     The style of the column 
+    column-rule-width: 1px;
+    /* The width of the style 
+    column-rule-color: red;*/
+    /* The color of the style */
+    column-rule: 2px dashed black;
+    /* We can write the rule property in 1 line as of border */
+    column-width: 300px;
+}
+
+h1{
+    column-span: all;
+    /* Brings heading in 1 column without division */
+}
