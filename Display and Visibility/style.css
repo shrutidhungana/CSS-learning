@@ -1,0 +1,28 @@
+.display{
+    border: 1px solid red;
+    margin-bottom: 15px;
+    display:block;
+    /* By default the display is block. It takes full width, starts in a new line and can take custom height and width. */
+    width: 50%;
+    height: 100px;
+}
+
+.display1{
+    border: 2px solid black;
+    display:inline;
+    /* doesnot start in a new line,starts from the same line. It takes the height and width as it requires and does not take custom height and width  */
+    
+    width: 50%;
+    height: 100px;
+    /* In this case the display won't take this height and width. */
+}
+
+.display2{
+    border: 3px solid green;
+    margin-top: 15px;
+    display:inline-block;
+    /* doesnot starts in a new line,starts from the same line. It takes height and width it requires but if we custom height and width it takes that */
+    width: 20%;
+    height: 100px;
+    /* In this case it takes height and width that we give. */
+}
