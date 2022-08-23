@@ -1,0 +1,26 @@
+img{
+    width: 500px;
+    height: 500px;
+}
+
+@media screen {
+    p{
+    font-size: 20px;
+}
+/* This works only for screen. */
+}
+
+@media print{
+    p{
+        font-size: 30px;
+    }
+    img{
+        display: none;
+    }
+    div{
+        background-color: black;
+        color: white;
+        
+    }
+    /* This works only for print */
+}
