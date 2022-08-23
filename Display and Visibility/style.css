@@ -26,3 +26,13 @@
     height: 100px;
     /* In this case it takes height and width that we give. */
 }
+
+.display3{
+    display: none;
+    /* We can take this property if you want to hide something. It also does not take any space. */
+}
+
+.display3{
+    visibility: hidden;
+    /* The difference */
+}
