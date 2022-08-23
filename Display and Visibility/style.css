@@ -34,5 +34,5 @@
 
 .display3{
     visibility: hidden;
-    /* The difference */
+    /* The difference is it takes the space while display none does not.*/
 }
