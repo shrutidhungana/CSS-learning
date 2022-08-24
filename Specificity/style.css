@@ -10,7 +10,7 @@ h1.red{
     color: blue;
 }
 
-/* More specific will be applied in this case it will be the class selector. */
+/* More specific will be applied in this case it will be the adjacent child selector. */
 /* Specificity rules:
 i)!important overides everything.
 ii)Inline overrides everything except !important.
