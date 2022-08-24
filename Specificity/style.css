@@ -1,0 +1,35 @@
+h1{
+    color: red
+}
+
+.red{
+    color: green;
+}
+
+h1.red{
+    color: blue;
+}
+
+/* More specific will be applied in this case it will be the class selector. */
+/* Specificity rules:
+i)!important overides everything.
+ii)Inline overrides everything except !important.
+iii)External has id as highest specificity and Universal selector as lowest specificity. */
+
+h2{
+    color: yellow !important
+}
+
+.blue{
+    color: purple;
+}
+
+/* important will take more specificity. */
+
+.green{
+    color: indigo;
+}
+
+/* Inline style given in this div overrides everything. */
+
+/* If same rule is applied in specificity the most recent one will be applied.*/
