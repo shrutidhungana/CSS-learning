@@ -1,0 +1,10 @@
+div {
+  border: 5px dashed purple !important;
+  /* Since we have applied important to this it removes all the priority of inline css or style and applies the css given to important. */
+}
+
+div {
+  border: 2px dotted green;
+}
+
+/* In this case the order becomes 5px dashed purple as important is applied there. */
