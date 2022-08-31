@@ -1,0 +1,32 @@
+.sprite{
+    height: 250px;
+    background-image: url('assets/combine_images.jpg');
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+    width: 200px;
+    /* Shows only Nepal image as the width of this flag in the image combined is 200px. */
+}
+
+.sprite1{
+    height: 200px;
+    background-image: url('assets/combine_images.jpg');
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+    width: 290px;
+    background-position:  -320px 0px ;
+    /* Shows only USA flag as the width is 290 px and background is positioned at -320px */
+}
+
+.sprite2{
+    height: 200px;
+    background-image: url('assets/combine_images.jpg');
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+    width: 600px;
+    background-position:  -615px 0px ;
+    /* Shows only Canada flag as the width is 600 px and background is positioned at -615px */
+}
+
+/* The limitation is image sprite can only be applied with background image. 
+
+*/
