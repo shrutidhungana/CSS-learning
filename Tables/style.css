@@ -1,0 +1,34 @@
+table{
+    border: 2px solid black;
+    /* border-collapse: separate; */
+    /* border-spacing: 15px  25px; */
+    border-collapse: collapse;
+    empty-cells: hide;
+    table-layout:auto;
+    width: 100%;
+}
+
+caption{
+    border: 2px solid black;
+    caption-side: bottom;
+}
+
+tr{
+    border: 2px solid black;
+    /* Row does not take border */
+}
+
+th{
+    border: 2px solid black; 
+    height: 30px;
+    padding: 15px;
+    text-align: right;
+}
+
+td{
+    border: 2px solid black; 
+    height: 25px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
