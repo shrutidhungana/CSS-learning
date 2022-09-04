@@ -1,0 +1,129 @@
+#wrapper{
+    padding: 20px;
+    margin: 20px'
+}
+
+#a1{
+    text-decoration: none;
+    background-color: lightcoral;
+    padding: 10px 20px;
+    color: white;
+    margin: 25px;
+    transform: translate(50px,50px);
+    display: inline-block
+
+    /* This does not work with inline works only with inline block and block */
+}
+
+#container{
+    
+        padding: 25px;
+        margin: 25px;
+     
+}
+
+#a2{
+    text-decoration: none;
+    background-color: lightcoral;
+    padding: 10px 20px;
+    color: white;
+    margin-bottom: 25px;
+    
+}
+
+#a2:hover{
+    transform: translate(50px,50px);
+    /* On hover it translates 50px x-axis and 50px y-axis. */
+    display: inline-block 
+}
+
+#container1{
+    padding: 30px;
+    margin: 30px;
+
+}
+
+#a3{
+    text-decoration: none;
+    background-color: lightcoral;
+    padding: 10px 20px; 
+    color: white; 
+}
+
+#a3:hover{
+    transform: rotate(20deg);
+    /* On hover it rotates for 20deg */
+    display: inline-block 
+}
+
+#container2{
+    padding: 35px;
+    margin: 35px;
+
+}
+
+#a4{
+    text-decoration: none;
+    background-color: lightcoral;
+    padding: 10px 20px;
+    color: white; 
+}
+
+#a4:hover{
+    transform: scale(2,3);
+    /* Multiplies current height and width on hover*/
+    display: inline-block 
+}
+
+#container3{
+    padding: 40px;
+    margin: 40px;
+
+}
+
+#a5{
+    text-decoration: none;
+    background-color: lightcoral;
+    padding: 10px 20px;
+    color: white; 
+    transform: skew(20deg,10deg);
+    /* Skew x-axis and y-axis. */
+    display:inline-block;
+}
+
+#container4{
+    padding: 45px;
+    margin: 45px;
+
+}
+
+#a6{
+    text-decoration: none;
+    background-color: lightcoral;
+    padding: 10px 20px;
+    color: white;
+    display: inline-block;
+    transform:rotate(20deg) ;
+    transform-origin: 0% 100%;
+    /* The origin from where it will rotate. */
+}
+
+#container5{
+    padding: 20px;
+    margin: 100px;
+     background-color: yellow;
+    transform:matrix(1,-0.2,0,1,0,0 )
+}
+
+
+
+#a7{
+    text-decoration: none;
+    background-color: lightcoral;
+    padding: 10px 20px;
+    color: white;
+    display: inline-block;
+    
+
+
+
