@@ -1,0 +1,83 @@
+img{
+    height: auto;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+#img1{
+    float:right;
+    /* The image will shift to right. */
+}
+
+#img2{
+    float:left;
+    /* The image will shift to left. */
+    
+}
+
+ul{
+    background-image:linear-gradient(270deg,red,indigo,yellow) ;
+    list-style-type: none;
+   
+    overflow: auto;
+}
+
+li{
+     color: white; 
+    padding: 10px 15px;
+    float: left;
+}
+/* Since giving float brings list-item out of the unordered-list we use overflow auto. */
+
+#p2{
+    border: 2px solid red;
+    overflow: auto;
+}
+
+#img3{
+    float: right;
+    width: 100px;
+    height: auto;
+}
+/* Same as above the float right brings image out of the paragraph and hence we give overflow auto to the main container p in this case. */
+
+#p3{
+    border: 2px solid red;
+    overflow: auto;
+}
+
+
+#img4{
+    width: 100px;
+    height: auto;
+    float: right;
+}
+
+#img5{
+    width: 100px;
+    height: auto;
+    float: right;
+    clear: right;
+}
+/* In this case as both the images comes side by side of each-other we use clear right which brings one image down. */
+
+#content{
+    width: 70%;
+    background-color: green;
+    height: 200px;
+    float: left;
+}
+
+#sidebar{
+    width: 30%;
+    background-color: indianred;
+    height: 150px;
+    float: left;
+}
+
+#footer{
+    background-color: yellowgreen;
+    clear: both;
+}
