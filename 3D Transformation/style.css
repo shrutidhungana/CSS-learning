@@ -1,0 +1,29 @@
+#cover{
+    border: 3px solid red;
+    height: 200px;
+    width: 200px;
+    margin: 150px;
+}
+
+#content{
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(60deg,#ffa07a,#ffae42,#4b0082);
+    transform: perspective(300px) rotate3d(50,50,50,20deg)
+    /* Rotates the content in x-axis, y-axis,z-axis with 20deg */
+}
+
+#cover1{
+    border: 3px solid red;
+    height: 200px;
+    width: 200px;
+    margin: 150px;
+}
+
+#content1{
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(60deg,#ffa07a,#ffae42,#4b0082);
+    transform: perspective(300px) translate3d(50px,50px,50px)
+    /* Gets shifts from the x-axis, y-axis and z-axis by 50px. */
+}
