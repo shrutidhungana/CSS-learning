@@ -1,0 +1,39 @@
+#div1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 100px;
+    cursor: pointer;
+    transition-property: width,height,background-color;
+    /* The property for what to transition */
+    transition-duration: 60ms;
+    /* How many time it takes to transition */
+    transition-delay: 500ms;
+    /* The time to wait */
+    transition-timing-function: ease-in-out;
+}
+
+
+#div1:hover{
+    width: 200px;
+    height: 200px;
+    cursor:pointer;
+    background-color: greenyellow;
+
+}
+
+#div2{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 100px;
+    cursor: pointer;
+    transition: width 5s, height 3s
+}
+
+#div2:hover{
+    width: 400px;
+    height: 400px;
+    cursor:pointer;
+    background-color: indianred;
+}
