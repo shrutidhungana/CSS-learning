@@ -1,0 +1,24 @@
+:root{
+    --primary-color:red;
+    --btn-color: blueviolet ;
+    --text-color: white;
+}
+
+
+
+#function{
+    background-color: var(--primary-color);
+    height: 200px;
+    width:calc(100% - 200px);
+    /* Calc function is used when you need some of the space to be fixed. */
+}
+
+a{
+    padding: 10px 30px;
+    margin: 20px;
+    background-color: var(--btn-color);
+    color:var(--text-color);
+    text-decoration: none;
+}
+
+/* var is used in the place where multiple variable can be used */
